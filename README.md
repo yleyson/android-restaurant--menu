@@ -2,6 +2,7 @@
 dynamic restaurant menu app.
 all the menus stored in firebase,
 includes button icons and dish photos.
+client enter restaurant code and get the menu.
 
 images:
 
