@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="20"
+    android:layout_weight="10"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".FilterFragment">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:weightSum="10">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="אלרגיות"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/gluten"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/gluten"
+            android:button="@drawable/custom_check"
+            android:padding="5dp"
+            android:text="גלוטן"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/lectose"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/milk"
+            android:button="@drawable/custom_check"
+            android:padding="5dp"
+            android:text="לקטוז"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/nuts"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/nuts"
+            android:button="@drawable/custom_check"
+            android:padding="5dp"
+            android:text="אגוזים"
+            android:textSize="20sp" />
+        <CheckBox
+            android:id="@+id/sesemi"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/sesame"
+            android:button="@drawable/custom_check"
+            android:padding="5dp"
+            android:text="שומשום"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/sendChoose"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="5dp"
+            android:text="בחירה"
+            android:textColor="@color/design_default_color_on_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

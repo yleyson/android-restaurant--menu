@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "546013470173",
+    "firebase_url": "https://androidfinale-8bb69-default-rtdb.firebaseio.com",
+    "project_id": "androidfinale-8bb69",
+    "storage_bucket": "androidfinale-8bb69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546013470173:android:9f74e2b0cce287db246a34",
+        "android_client_info": {
+          "package_name": "com.example.androidfinale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546013470173-fs50e8k9h78dcjltkbo84jm8pnh0mp1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlK5uEyg_HJpl5l6RU_FdstH-KitG9EU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546013470173-fs50e8k9h78dcjltkbo84jm8pnh0mp1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546013470173:android:4f635670a0ec328f246a34",
+        "android_client_info": {
+          "package_name": "com.example.myrestuarent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546013470173-fs50e8k9h78dcjltkbo84jm8pnh0mp1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlK5uEyg_HJpl5l6RU_FdstH-KitG9EU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546013470173-fs50e8k9h78dcjltkbo84jm8pnh0mp1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
